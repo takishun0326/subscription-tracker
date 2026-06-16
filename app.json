@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Subsc Tracker",
+    "slug": "subscription-tracker",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "subsctracker",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.subsctracker"
+    },
+    "android": {
+      "package": "com.example.subsctracker"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
